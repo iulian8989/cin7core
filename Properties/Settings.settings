@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CIN7Core_MFT_EDI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Cin7APIBaseURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://inventory.dearsystems.com/ExternalApi/v2/</Value>
+    </Setting>
+    <Setting Name="Cin7AccountId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">06ad6f4f-0e2e-46e8-9e4c-327f2f2eb236</Value>
+    </Setting>
+    <Setting Name="Cin7APIKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">271e8e3d-22f5-1dfe-aad1-535e1c0d8d28</Value>
+    </Setting>
+    <Setting Name="LogFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Logs</Value>
+    </Setting>
+    <Setting Name="FtpUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MFT-FTP</Value>
+    </Setting>
+    <Setting Name="FtpPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">4pple$Oranges1</Value>
+    </Setting>
+    <Setting Name="FtpTargetDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EDI/test/out</Value>
+    </Setting>
+    <Setting Name="FtpURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ftp://45.79.215.102</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
