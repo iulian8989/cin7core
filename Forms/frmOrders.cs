@@ -518,7 +518,6 @@ namespace CIN7Core_MFT_EDI.Forms
                 log.Info($"Orders object created with OrderID: {orders.OrderList[0].SOH.OrderID}");
 
                 // Iterate through fulfilment lines
-               ```csharp
 foreach (DataGridViewRow row in dataGridViewFulfilmentLines.Rows)
 {
     // 1. Pull raw qty and per-box values
