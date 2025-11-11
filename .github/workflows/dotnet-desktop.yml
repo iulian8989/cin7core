@@ -19,13 +19,13 @@ jobs:
       uses: nuget/setup-nuget@v1
 
     - name: Restore NuGet packages
-      run: nuget restore cin7core.sln
+      run: nuget restore CIN7Core_MFT_EDI.sln
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
     - name: Build solution
-      run: msbuild cin7core.sln /p:Configuration=Release /p:Platform="Any CPU"
+      run: msbuild CIN7Core_MFT_EDI.sln /p:Configuration=Release /p:Platform="Any CPU"
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
